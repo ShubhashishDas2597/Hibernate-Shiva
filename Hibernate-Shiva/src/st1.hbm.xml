@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="scs.student" table="tbl_student">
+ 
+<id name="sid">
+<generator class="assigned"></generator>
+</id>
+<property name="sname" />
+
+
+</class>
+</hibernate-mapping>
